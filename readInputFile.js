@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const readInputFile = (day, file = './input.txt') => {
     const data = fs
-        .readFileSync(`./${day}/${file}`, 'utf8')
+        .readFileSync(`./challenge${day}/${file}`, 'utf8')
         .split('\n')
         .filter(Boolean);
 
