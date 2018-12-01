@@ -1,0 +1,15 @@
+{
+    "name": "advent-of-code-2018",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:watch": "npm test -- --watch"
+    },
+    "author": "Lyndsey Browning <lbrowning86@gmail.com> (http://lyndseyb.co.uk/)",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "23.6.0"
+    }
+}
