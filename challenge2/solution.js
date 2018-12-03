@@ -73,7 +73,7 @@ const commonBoxId = input => {
 const readInputFile = require('../readInputFile');
 const input = readInputFile(2);
 
-console.log(checksum(input));
-console.log(commonBoxId(input));
+//console.log(checksum(input));
+//console.log(commonBoxId(input));
 
 module.exports = { checksum, commonBoxId };
